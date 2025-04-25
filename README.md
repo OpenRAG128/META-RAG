@@ -1,3 +1,4 @@
+# META-RAG
 MetaRAG is a Python framework for multi-model Retrieval-Augmented Generation. It queries multiple LLMs in parallel, scores the responses based on cosine similarity with the context, and aggregates the top responses for a more accurate and comprehensive answer.
 
 ## Features
