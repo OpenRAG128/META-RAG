@@ -1,0 +1,35 @@
+name: Deploy MetaRAG
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # You can change this to another runner like windows-latest or macos-latest
+
+    steps:
+      # Checkout the repository code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'  # Specify the Python version required for your project
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt  # Assuming all dependencies are listed in the requirements.txt
+
+      # Set the secret environment variable for GROQ_API_KEY
+      - name: Set GROQ_API_KEY environment variable
+        run: echo "GROQ_API_KEY=${{ secrets.GROQ_API_KEY }}" >> $GITHUB_ENV
+
+      # Run the MetaRAG script or your test script
+      - name: Run MetaRAG framework
+        run: |
+          python examples/run_metarag.py  # Assuming 'run_metarag.py' is your main entry script for testing the framework
