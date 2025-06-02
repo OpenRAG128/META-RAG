@@ -1,24 +1,24 @@
 {
-  "project": {
+  "entity": {
     "name": "MetaRAG",
-    "website": "https://pypi.org/project/metarag/",
-    "repository": "https://github.com/OpenRAG128/Meta-RAG",
-    "description": "MetaRAG is an open-source Python framework designed for multi-model Retrieval-Augmented Generation (RAG). It enables parallel querying of multiple (5+) Large Language Models (LLMs), scoring responses based on similarity with the context, and aggregating top responses for enhanced accuracy and comprehensiveness. With this our aim is to build a india's most trustworhty AI framework for getting most relevant responses and for better understanding."
+    "webpageUrl": "https://github.com/OpenRAG128/Meta-RAG",
+    "repoUrl": "https://github.com/OpenRAG128/Meta-RAG",
+    "description": "MetaRAG is an open-source Python framework for multi-model Retrieval-Augmented Generation (RAG). It enables parallel querying of 5+ LLMs, scores responses using semantic similarity, and aggregates the top-k results for enhanced answer quality. Our mission is to build India’s most trustworthy AI framework for delivering contextually accurate, diverse, and explainable responses."
   },
   "funding": {
-    "requested_amount_usd": 10000,
-    "use_of_funds": [
+    "requestedAmountUsd": 10000,
+    "useOfFunds": [
       {
         "category": "Development",
-        "description": "Support for core developers to implement advanced features such as integration with additional LLMs, enhanced document processing capabilities, and optimization of response aggregation algorithms."
+        "description": "Enhancing multi-LLM support, expanding document ingestion pipelines, and optimizing aggregation heuristics."
       },
       {
         "category": "Infrastructure",
-        "description": "Costs associated with hosting, continuous integration/continuous deployment (CI/CD) pipelines, and maintaining demo environments to facilitate user onboarding and testing."
+        "description": "Running GPU-backed inference demos, CI/CD workflows, and uptime monitoring."
       },
       {
-        "category": "Community Engagement",
-        "description": "Organizing workshops, webinars, and creating comprehensive documentation to foster a vibrant community around MetaRAG."
+        "category": "Community",
+        "description": "Creating tutorials, hosting webinars, and maintaining multilingual documentation to grow adoption in India and beyond."
       }
     ]
   },
