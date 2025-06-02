@@ -1,0 +1,29 @@
+{
+  "entity": {
+    "name": "MetaRAG",
+    "webpageUrl": "https://pypi.org/project/metarag/",
+    "repoUrl": "https://github.com/OpenRAG128/Meta-RAG",
+    "description": "MetaRAG is an open-source Python framework for multi-model Retrieval-Augmented Generation (RAG). It enables parallel querying of 5+ LLMs, scores responses using semantic similarity, and aggregates the top-k results for enhanced answer quality. Our mission is to build India’s most trustworthy AI framework for delivering contextually accurate, diverse, and explainable responses."
+  },
+  "funding": {
+    "requestedAmountUsd": 10000,
+    "useOfFunds": [
+      {
+        "category": "Development",
+        "description": "Enhancing multi-LLM support, expanding document ingestion pipelines, and optimizing aggregation heuristics."
+      },
+      {
+        "category": "Infrastructure",
+        "description": "Running GPU-backed inference demos, CI/CD workflows, and uptime monitoring."
+      },
+      {
+        "category": "Outreach",
+        "description": "Creating tutorials, hosting webinars, and maintaining multilingual documentation to grow adoption in India and beyond."
+      }
+    ]
+  },
+  "contact": {
+    "name": "Nisharg Nargund",
+    "email": "nisarg.nargund@gmail.com"
+  }
+}
